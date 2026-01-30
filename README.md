@@ -38,8 +38,35 @@ This project helps manage suppliers, medicines, expiry details, and basic invent
 2. Add **MySQL Connector JAR** to build path
 3. Create database and tables in MySQL
 4. Update database credentials in `DBConnection.java`
-5. Run `Main.java`
+5. Run `Main.java
 
----
 
-## 📂 Project Structure
+📁Project Structure
+
+PharmacyManagementSystem
+├── src
+│   └── com
+│       └── pharmacy
+│           ├── dto
+│           │   ├── MedicineDTO.jaStructureupplierDTO.java
+│           │   └── SalesDTO.java
+│           ├── dao
+│           │   ├── MedicineDAO.java
+│           │   ├── SupplierDAO.java
+│           │   ├── SalesDAO.java
+│           │   ├── MedicineDAOImpl.java
+│           │   ├── SupplierDAOImpl.java
+│           │   └── SalesDAOImpl.java
+│           ├── service
+│           │   ├── MedicineService.java
+│           │   ├── SupplierService.java
+│           │   └── SalesService.java
+│           ├── util
+│           │   └── DBConnection.java
+│           └── main
+│               └── Main.java
+├── database
+│   └── pharmacydb.sql
+├── README.md
+└── src.zip (for GitHub upload)
+        
