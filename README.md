@@ -1,6 +1,6 @@
 # Pharmacy Management System
 
-A menu-driven **Pharmacy Management System** developed using **Java, JDBC, and MySQL**.  
+A menu-driven **Pharmacy Management System** developed using **Java, Java Swing JDBC, and MySQL**.  
 This project helps manage suppliers, medicines, expiry details, and basic inventory operations.
 
 ---
@@ -12,6 +12,7 @@ This project helps manage suppliers, medicines, expiry details, and basic invent
 - View expired medicines
 - Delete medicine
 - MySQL database integration using JDBC
+- UI design
 
 ---
 
@@ -64,7 +65,9 @@ PharmacyManagementSystem
 │           ├── util
 │           │   └── DBConnection.java
 │           └── main
-│               └── Main.java
+│           |   └── Main.java
+|           |__ ui
+|               |__ MedicineUI.java
 ├── database
 │   └── pharmacydb.sql
 ├── README.md
